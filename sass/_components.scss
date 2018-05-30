@@ -1,0 +1,66 @@
+//---------------//
+.logo{
+    height: 3.25rem;
+}
+
+
+//---------------//
+.search{
+    flex: 0 0 40%;
+    &__input{
+        width:90%;
+        border: none;
+        &:focus{
+            outline: none;
+        }
+    }
+    
+    &__button{
+        border:none;
+        background-color: white;
+        &:focus{
+            outline: none;
+        }
+    }
+    
+    &__icon{
+        height: 2rem;
+        width: 2rem;
+    }
+}
+
+
+
+//---------------//
+.user-nav{
+    display: flex;
+    flex: 0 0 15%;
+    justify-content: space-between;
+    align-items: center;
+    &__icon-box{
+
+    }
+
+    &__icon{
+        height:2.25rem;
+        width:2.25rem;
+    }
+
+    &__notification{
+
+    }
+
+    &__user{
+
+    }
+
+    &__user-photo{
+        height:3.75rem;
+        width:3.75rem;
+        border-radius: 50%;
+    }
+
+    &__user-name{
+
+    }
+}

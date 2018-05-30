@@ -61,7 +61,11 @@ body {
 .header {
   height: 7rem;
   background-color: #fff;
-  border-bottom: var(--color-grey-light-2); }
+  border-bottom: var(--color-grey-light-2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 2rem; }
 
 .content {
   display: flex; }
@@ -73,3 +77,35 @@ body {
 .hotel-view {
   background-color: var(--color-grey-dark-2);
   flex: 1; }
+
+.logo {
+  height: 3.25rem; }
+
+.search {
+  flex: 0 0 40%; }
+  .search__input {
+    width: 90%;
+    border: none; }
+    .search__input:focus {
+      outline: none; }
+  .search__button {
+    border: none;
+    background-color: white; }
+    .search__button:focus {
+      outline: none; }
+  .search__icon {
+    height: 2rem;
+    width: 2rem; }
+
+.user-nav {
+  display: flex;
+  flex: 0 0 15%;
+  justify-content: space-between;
+  align-items: center; }
+  .user-nav__icon {
+    height: 2.25rem;
+    width: 2.25rem; }
+  .user-nav__user-photo {
+    height: 3.75rem;
+    width: 3.75rem;
+    border-radius: 50%; }
